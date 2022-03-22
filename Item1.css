@@ -1,0 +1,42 @@
+@font-face {
+    font-family:'Butler-Light';
+    src:
+        url(font/Butler-Light.woff2) format('woff2'),
+        url(font/Butler-Light.woff) format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+table{
+    border: 0px !important
+}
+.test{
+    font-size: 25 px !important ;
+}
+
+table,
+td {
+    border: 3px solid #333;
+    font-family: 'Butler-Light';
+    font-weight:700;
+    border-radius: 5px  !important ;
+
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+.card_Item{
+    display: flex;
+    justify-content: center;
+}
+html{
+
+    background-image: url(img/red_flou.jpg);
+    height: max-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

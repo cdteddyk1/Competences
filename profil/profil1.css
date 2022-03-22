@@ -1,0 +1,77 @@
+
+html{
+height: 100%
+}
+.card_profil{
+
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profil_user{
+    border: solid 5px ;
+    border-radius: 5px;
+    font-size: 35px;
+    color: black;
+    padding: 25px;
+}
+.barre_Profil{
+    padding-top: 15px;
+
+}
+.barre_end{
+    padding-top: 15px;
+
+}
+.profil_account_user{
+    border: solid 5px ;
+    border-radius: 5px;
+    font-size: 35px;
+    color: black;
+    flex-direction: row;
+}
+.profil_account_user{
+    padding: 15px;
+
+}
+
+.profil_mdp{
+    display: flex;
+    align-content: center;
+    justify-content: start;
+
+
+}
+input{
+    border: solid 5px black  ;
+    border-radius: 25px;
+    width: 350px;
+    height: 35px;
+    background-color: transparent;
+    font-size:20px;
+    
+}
+
+.button_profil_mdp_register{
+    border: solid 5px black  ;
+    border-radius: 25px;
+    width: 25;
+    height: 35px;
+    background-color: transparent;
+    font-size: 20px;
+}
+.test{
+    display: flex;
+    flex-direction: row;
+}
+.label_mdp{
+    padding-right: 5px;
+    
+}
+#label_new_mdp{
+    padding-right: 23px;
+}
